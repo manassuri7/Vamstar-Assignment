@@ -1,0 +1,11 @@
+Analysis on Testing:
+
+ 1. Validation data:
+           a.BMI and realaed scientific parameter like BMI Categgory, 
+		   Health Risk can only discussed for valid input data mean height and weight shall not be non positive.
+ 2. Program Behavior:
+          a.may fail when available resource can not allocate enough bits of memory. 
+		  Since height and weight are small practicle numbers occurance of this type of error is not possible.
+		  b.Logical implementation needs to be tested with edge blocking test cases.
+		  
+		   

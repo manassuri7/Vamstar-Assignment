@@ -1,0 +1,13 @@
+Implementation analysis:
+
+As per problem statement, it is given array of objects where computation done for each object based on its
+properties values and results will be added to same object. 
+
+
+What all needed:
+  1.In my aproach I am using call() function which makes Method native to an object,
+     so for each object a custom method can be used multiple times
+  2. A function(Method of an object) to calculate BMI and categorize
+      BMI and Health risk and add them as data members.
+  
+  
